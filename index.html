@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aimco International</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Back to top button -->
+    <div class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#" data-page="home">
+                 <img class="logo" src="img/logo.png" alt="">
+                 <!-- Aimco <span>International</span> -->
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html" data-page="home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="freight_forworder.html">Freight Forwarding</a></li>
+                            <li><a class="dropdown-item" href="warehouse.html">Warehousing</a></li>
+                            <li><a class="dropdown-item" href="customs_clearance.html">Customs Clearance</a></li>
+                            <li><a class="dropdown-item" href="project.html">Project Logistics</a></li>
+                            <li><a class="dropdown-item" href="heavy_lifts.html">Heavy Lifts</a></li>
+                            <li><a class="dropdown-item" href="agricultural.html">Agricultural Supplies</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html" data-page="contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="btn nav-btn btn-sm px-5" data-page="contact">Get a Quote</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Page -->
+    <div id="home-page" class="page active">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-7 hero-content fade-in">
+                        <h1 class="display-4 fw-bold">Delivering Excellent Service Across East Africa</h1>
+                        <p class="lead">Since 2015, we have been a leading customs clearing and freight forwarding company across South Sudan  — delivering cost-effective, customized customs clearing and freight forwarding services for both small and large enterprises.</p>
+                        <div class="d-flex flex-wrap gap-3">
+                            <a href="contact.html" class="btn btn-aimco btn-lg px-5" data-page="contact">Get a Quote</a>
+                            <a href="#services" class="btn btn-aimco-outline-light btn-lg px-5" data-page="services">Our Services</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 fade-in">
+                        <div class="card bg-transparent border-0 mt-5 mt-lg-0 text-white">
+                            <div class="card-body p-4">
+                                <h4 class="mb-4">Our Core Services</h4>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item bg-transparent text-white border-light"><i class="fas fa-check-circle me-2 text-success"></i> Freight Forwarding</li>
+                                    <li class="list-group-item bg-transparent text-white border-light"><i class="fas fa-check-circle me-2 text-success"></i> Road & Air Cargo</li>
+                                    <li class="list-group-item bg-transparent text-white border-light"><i class="fas fa-check-circle me-2 text-success"></i> Project Logistics</li>
+                                    <li class="list-group-item bg-transparent text-white border-light"><i class="fas fa-check-circle me-2 text-success"></i> Customs Clearance</li>
+                                    <li class="list-group-item bg-transparent text-white border-light"><i class="fas fa-check-circle me-2 text-success"></i> Warehousing</li>
+                                    <li class="list-group-item bg-transparent text-white border-light"><i class="fas fa-check-circle me-2 text-success"></i> Agricultural & Food Supply</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="section bg-light">
+            <div class="container">
+                <h2 class="section-title">Our Services</h2>
+                <p class="section-subtitle">Comprehensive logistics solutions designed to meet your specific requirements</p>
+                
+                <div class="row">
+                    <!-- Freight Forwarding -->
+                    <div class="col-md-6 col-lg-4 fade-in freight-item">
+                        <div class="card" data-page="freight">
+                            <div class="service-card text-center">
+                                <div class="card-icon">
+                                    <i class="fas fa-ship"></i>
+                                </div>
+                                <h4>Freight Forwarding</h4>
+                                <p>Comprehensive import/export air, sea, and land services including packing, customs, and global tracking.</p>
+                                <a href="freight_forworder.html" class="btn btn-outline-primary mt-3">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Road Freight -->
+                    <div class="col-md-6 col-lg-4 fade-in freight-item">
+                        <div class="card" data-page="road">
+                            <div class="service-card text-center">
+                                <div class="card-icon">
+                                    <i class="fas fa-truck"></i>
+                                </div>
+                                <h4>Road Freight</h4>
+                                <p>Scheduled LTL & FTL transport, bonded trucking, perishable goods delivery across East Africa.</p>
+                                <a href="road.html" class="btn btn-outline-primary mt-3" data-page="road">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Air Freight -->
+                    <div class="col-md-6 col-lg-4 fade-in freight-item">
+                        <div class="card" data-page="air">
+                            <div class="service-card text-center">
+                                <div class="card-icon">
+                                    <i class="fas fa-plane"></i>
+                                </div>
+                                <h4>Air Freight</h4>
+                                <p>Tailored plans for sensitive cargo, full/part charters, and real-time shipment tracking.</p>
+                                <a href="airfreight.html" class="btn btn-outline-primary mt-3" data-page="air">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Warehousing -->
+                    <div class="col-md-6 col-lg-4 fade-in freight-item">
+                        <div class="card" data-page="warehouse">
+                            <div class="service-card text-center">
+                                <div class="card-icon">
+                                    <i class="fas fa-warehouse"></i>
+                                </div>
+                                <h4>Warehousing & Distribution</h4>
+                                <p>Safe short/long-term storage, inventory control, labeling, pest control, and distribution.</p>
+                                <a href="warehouse.html" class="btn btn-outline-primary mt-3" data-page="warehouse">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Customs Clearance -->
+                    <div class="col-md-6 col-lg-4 fade-in freight-item">
+                        <div class="card" data-page="customs">
+                            <div class="service-card text-center">
+                                <div class="card-icon">
+                                    <i class="fas fa-passport"></i>
+                                </div>
+                                <h4>Customs Clearance</h4>
+                                <p>Fast clearance with detailed documentation handling, tax assessments, and bonded services.</p>
+                                <a href="customs_clearance.html" class="btn btn-outline-primary mt-3" data-page="customs">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Project Logistics -->
+                    <div class="col-md-6 col-lg-4 fade-in freight-item">
+                        <div class="card" data-page="project">
+                            <div class="service-card text-center">
+                                <div class="card-icon">
+                                    <i class="fas fa-hard-hat"></i>
+                                </div>
+                                <h4>Project Logistics</h4>
+                                <p>Door-to-door solutions for oversized, heavy-lift, industrial and offshore cargo.</p>
+                                <a href="project.html" class="btn btn-outline-primary mt-3" data-page="project">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 mb-5 mb-lg-0 fade-in">
+                        <img src="https://images.unsplash.com/photo-1556742044-3c52d6e88c62?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80" alt="Aimco Team" class="img-fluid about-img">
+                    </div>
+                    <div class="col-lg-6 fade-in">
+                        <h2 class="section-title">About Us</h2>
+                        <h3 class="mb-4">Your Trusted Logistics Partner in East Africa</h3>
+                        <p class="lead">At Aimco, we develop tailored freight forwarding and logistics plans aligned to our clients' needs. With a people-driven, quality-first approach and deep regional expertise, we deliver unmatched service in project logistics, relocation, and supply chain management.</p>
+                        
+                        <div class="mt-5">
+                            <h4 class="mb-4">Why Choose Aimco?</h4>
+                            <div class="row">
+                                <div class="col-md-6 mb-4">
+                                    <div class="d-flex">
+                                        <i class="fas fa-road me-3 text-primary fs-3"></i>
+                                        <div>
+                                            <h5>Multimodal Transport</h5>
+                                            <p class="mb-0">Sea, air, road solutions tailored to your needs</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <div class="d-flex">
+                                        <i class="fas fa-globe-africa me-3 text-primary fs-3"></i>
+                                        <div>
+                                            <h5>East Africa Network</h5>
+                                            <p class="mb-0">Extensive coverage across 4 countries</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <div class="d-flex">
+                                        <i class="fas fa-award me-3 text-primary fs-3"></i>
+                                        <div>
+                                            <h5>Recognized Excellence</h5>
+                                            <p class="mb-0">Certified by UN-WFP & SSBoS</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <div class="d-flex">
+                                        <i class="fas fa-tractor me-3 text-primary fs-3"></i>
+                                        <div>
+                                            <h5>Agricultural Expertise</h5>
+                                            <p class="mb-0">Top-rated food and non-food supplier</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mission & Vision Section -->
+        <section id="mission" class="mission-vision">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10 text-center">
+                        <h2 class="text-white mb-4">Our Mission & Vision</h2>
+                        <div class="row">
+                            <div class="col-md-6 mb-5 mb-md-0 fade-in">
+                                <div class="value-card">
+                                    <i class="fas fa-bullseye fa-3x text-white mb-4"></i>
+                                    <h3 class="mb-3">Mission</h3>
+                                    <p class="mb-0">To be the most customer-focused logistics provider in East Africa, delivering total satisfaction through continuous quality improvement, ethical compliance, and exceptional service.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 fade-in">
+                                <div class="value-card">
+                                    <i class="fas fa-eye fa-3x text-white mb-4"></i>
+                                    <h3 class="mb-3">Vision</h3>
+                                    <p class="mb-0">Sustained growth through customer loyalty and operational excellence.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-5">
+                            <h3 class="text-white mb-4">Our Core Values</h3>
+                            <div class="row g-4">
+                                <div class="col-md-3">
+                                    <div class="value-card">
+                                        <h4 class="mb-3">Quality</h4>
+                                        <p class="mb-0">Excellence in every operation</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="value-card">
+                                        <h4 class="mb-3">Integrity</h4>
+                                        <p class="mb-0">Ethical business practices</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="value-card">
+                                        <h4 class="mb-3">Safety</h4>
+                                        <p class="mb-0">Protecting people and cargo</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="value-card">
+                                        <h4 class="mb-3">Innovation</h4>
+                                        <p class="mb-0">Continuous improvement</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Clients Section -->
+        <section id="clients" class="section">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center fade-in">
+                        <h2 class="section-title">Our Clients</h2>
+                        <p class="section-subtitle">We proudly serve NGOs, governments, and businesses across sectors with superior service delivery and professionalism.</p>
+                    </div>
+                </div>
+                
+                <div class="row align-items-center justify-content-center g-5 mt-4 fade-in">
+                    <div class="col-6 col-md-3 text-center">
+                        <img src="img/icrc.jpg" alt="ICRC" class="img-fluid clients-logo">
+                    </div>
+                    <div class="col-6 col-md-3 text-center">
+                        <img src="img/msf.jpg" alt="MSF" class="img-fluid clients-logo">
+                    </div>
+                    <div class="col-6 col-md-3 text-center">
+                        <img src="img/wfp.jpg"alt="WFP" class="img-fluid clients-logo">
+                    </div>
+                    <div class="col-6 col-md-3 text-center">
+                        <img src="img/acf.jpg" alt="ACF" class="img-fluid clients-logo">
+                    </div>
+                    <div class="col-6 col-md-3 text-center">
+                        <img src="img/dpoc.jpg" alt="DPOC" class="img-fluid clients-logo">
+                    </div>
+                    <div class="col-6 col-md-3 text-center">
+                        <img src="img/alima.jpg" alt="ALIMA" class="img-fluid clients-logo">
+                    </div>
+                    <div class="col-6 col-md-3 text-center">
+                        <img src="img/bbc.jpg"alt="BBC" class="img-fluid clients-logo">
+                    </div>
+                    <div class="col-6 col-md-3 text-center">
+                        <img src="img/ccm.jpg" alt="CCM" class="img-fluid clients-logo">
+                    </div>
+                    <div class="col-6 col-md-3 text-center">
+                        <img src="img/premiere.jpg" alt="Premier Urgency" class="img-fluid clients-logo">
+                    </div>
+                    <div class="col-6 col-md-3 text-center">
+                        <img src="img/tcc.jpg" alt="TTC" class="img-fluid clients-logo">
+                    </div>
+                    <div class="col-6 col-md-3 text-center">
+                        <img src="img/sp.jpg" alt="Samaritan's Purse" class="img-fluid clients-logo">
+                    </div>
+                    <div class="col-6 col-md-3 text-center">
+                        <img src="img/safelane.jpg" alt="Safelane" class="img-fluid clients-logo">
+                    </div>
+                </div>
+                
+                <div class="mt-5 fade-in">
+                    <div class="card border-0 shadow">
+                        <div class="card-body p-4">
+                            <div class="row">
+                                <div class="col-md-4 border-end text-center p-4">
+                                    <h1 class="display-3 fw-bold text-primary">10+</h1>
+                                    <h5>Years of Experience</h5>
+                                </div>
+                                <div class="col-md-4 border-end text-center p-4">
+                                    <h1 class="display-3 fw-bold text-primary">4</h1>
+                                    <h5>Countries Served</h5>
+                                </div>
+                                <div class="col-md-4 text-center p-4">
+                                    <h1 class="display-3 fw-bold text-primary">50+</h1>
+                                    <h5>Satisfied Clients</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section bg-light">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center mb-5 fade-in">
+                        <h2 class="section-title">Contact Us</h2>
+                        <p class="section-subtitle">Reach out to our team for any inquiries or to request a quote for our services.</p>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-lg-5 mb-5 mb-lg-0 fade-in">
+                        <div class="contact-info">
+                            <h3 class="mb-4">Get In Touch</h3>
+                            <div class="d-flex mb-4">
+                                <i class="fas fa-map-marker-alt contact-icon"></i>
+                                <div class="ms-3">
+                                    <h5>Head Office</h5>
+                                    <p>Atlabara Plot 34 YB Building, Opposite Gemtel Office<br>Juba, South Sudan</p>
+                                </div>
+                            </div>
+                            <div class="d-flex mb-4">
+                                <i class="fas fa-phone-alt contact-icon"></i>
+                                <div class="ms-3">
+                                    <h5>Phone</h5>
+                                    <p>+211 922638864<br>+211 925058484</p>
+                                </div>
+                            </div>
+                            <div class="d-flex mb-4">
+                                <i class="fas fa-envelope contact-icon"></i>
+                                <div class="ms-3">
+                                    <h5>Email</h5>
+                                    <p>info@aimco-int.com<br>aimcointernational15@gmail.com</p>
+                                </div>
+                            </div>
+                            <div class="mt-5">
+                                <h5>Follow Us</h5>
+                                <div class="d-flex mt-3">
+                                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                                    <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 fade-in">
+                        <div class="card border-0 shadow">
+                            <div class="card-body p-4 p-md-5">
+                                <h3 class="mb-4">Send Us a Message</h3>
+                                <form>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <input type="text" class="form-control" placeholder="Your Name" required>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <input type="email" class="form-control" placeholder="Your Email" required>
+                                        </div>
+                                    </div>
+                                    <input type="text" class="form-control" placeholder="Subject">
+                                    <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                                    <button type="submit" class="btn btn-aimco mt-3">Send Message</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-4 fade-in">
+                    <h4 class="text-white mb-4"><img class="footer-img" src="img/logo.png" alt=""></i>Aimco International</h4>
+                    <p>Delivering cost-effective, customized logistics solutions across South Sudan, Kenya, Uganda, and Rwanda since 2015.</p>
+                    <div class="d-flex mt-4">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 fade-in">
+                    <h5 class="text-white mb-4">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="index.html" data-page="home">Home</a></li>
+                        <li class="mb-2"><a href="about.html" data-page="about">About Us</a></li>
+                        <li class="mb-2"><a href="/#services" data-page="services">Services</a></li>
+                        <li class="mb-2"><a href="contact.html" data-page="contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4 fade-in">
+                    <h5 class="text-white mb-4">Our Services</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="freight_forworder.html">Freight Forwarding</a></li>
+                        <li class="mb-2"><a href="warehouse.html">Warehousing</a></li>
+                        <li class="mb-2"><a href="agricultural.html">Agricultural Supplies</a></li>
+                        <li class="mb-2"><a href="customs_clearance.html">Customs Clearance</a></li>
+                        <li class="mb-2"><a href="heavy_lifts.html">Heavy Lifts</a></li>
+                        <li class="mb-2"><a href="project.html">Project Logistics</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4 fade-in">
+                    <h5 class="text-white mb-4">Contact Info</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><i class="fas fa-map-marker-alt me-2"></i> Juba, South Sudan</li>
+                        <li class="mb-2"><i class="fas fa-phone-alt me-2"></i> +211 922638864</li>
+                        <li class="mb-2"><i class="fas fa-envelope me-2"></i> info@aimco-int.com</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="mt-5 mb-4">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start fade-in">
+                    <p class="mb-0">&copy; <span id="year"></span> Aimco International Limited. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end fade-in">
+                    <a href="#" class="me-3">Terms of Service</a>
+                    <a href="#">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+    // Set the current year
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
