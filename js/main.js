@@ -129,3 +129,9 @@
                 iconObserver.observe(box);
             });
         });
+
+// call button
+const phoneNumber = "+211922638864";
+document.getElementById("callNowBtn").addEventListener("click", () => {
+  window.location.href = `tel:${phoneNumber}`;
+});
