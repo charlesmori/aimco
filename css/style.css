@@ -595,6 +595,64 @@
             font-size: 1.1rem;
         }
 
+ /* Category Showcase */
+        .category-showcase {
+            background: #f8f9fa;
+            padding: 60px 0;
+        }
+        
+        .category-card {
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            transition: all 0.3s;
+            margin-bottom: 30px;
+            background: white;
+            height: 100%;
+        }
+        
+        .category-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 25px rgba(0,0,0,0.12);
+        }
+        
+        .category-img {
+            height: 200px;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .category-content {
+            padding: 25px;
+        }
+        
+        .category-title {
+            color: var(--aimco-blue);
+            margin-bottom: 15px;
+        }
+        
+        .item-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .item-list li {
+            padding: 8px 0;
+            border-bottom: 1px dashed #eee;
+            display: flex;
+            align-items: center;
+        }
+        
+        .item-list li:last-child {
+            border-bottom: none;
+        }
+        
+        .item-list li i {
+            color: var(--aimco-green);
+            margin-right: 10px;
+        }
+
 
         /* Service Overview */
         .service-overview {
