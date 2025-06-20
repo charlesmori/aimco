@@ -280,12 +280,20 @@
             border-radius: 12px;
             box-shadow: 0 8px 20px rgba(0,0,0,0.06);
             height: 100%;
-            border-top: 4px solid var(--aimco-orange);
+            border-top: 4px solid var(--aimco-blue);
             transition: all 0.3s;
+            text-align: center;
         }
         
         .benefit-card:hover {
             transform: translateY(-5px);
+            border-color: var(--aimco-orange);
+        }
+
+		.nfp-icon {
+            font-size: 3.2rem;
+            color: var(--aimco-blue);
+            margin-bottom: 20px;
         }
         
         /* About Section */
