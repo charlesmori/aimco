@@ -764,7 +764,7 @@
 
          /* Recognition Section */
         .recognition {
-            background: linear-gradient(rgba(40, 167, 69, 0.92), rgba(40, 167, 69, 0.92)), url('https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80');
+             background: linear-gradient(rgba(0, 86, 179, 0.92), rgba(0, 86, 179, 0.92)), url('https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80');
             background-size: cover;
             background-position: center;
             color: white;
